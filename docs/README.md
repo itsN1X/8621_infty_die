@@ -1,6 +1,8 @@
 # 8621_infty_die
 A degenerate gamblers' TTD calculator.
 
+### Last version : `v0.0.1.337`
+
 #### Extra information
 This web-application is also usable offline (without internet).
 - To download a copy, try one of these:
