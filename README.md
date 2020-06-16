@@ -22,7 +22,8 @@ Alternatively, this Application is available [online](https://itsn1x.github.io/8
 - Also, we do not collect any user data, nor do we store cookies anywhere.
 - Furthermore, we do not (nor allow anyone to) track your usage of App or Website.
 - No analytics on user-behavoiur.
-- No advertisements or shills of any kind.  
+- No advertisements or shills of any kind.
+
 **Important note:**
 We use javaScript for the back-end calculations.
 If you (too) hate this strain of Technology, there is also exists a [python implementaion](https://github.com/itsN1X/8644_infty_die/releases) written by us, specially for you!
@@ -31,3 +32,5 @@ Kindly look (or clone) into our [python repository](https://github.com/itsN1X/86
 ##### ***bitcoin***: `1TsNiXCQkPKaB6zfDQQXAwMBfe12ySoKa`
 ### Enjoy Responsibly.
 ## 73's
+----
+###### © [itsN1X](https://google.com/search?q=itsN1X)
