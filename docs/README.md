@@ -14,7 +14,8 @@ This web-application is also usable offline (without internet).
       - `git clone github.com/itsN1X/8621_infty_die.git`
     - **cURL** your way to our (raw) App:
       - `curl -X GET "https://raw.githubusercontent.com/itsN1X/8621_infty_die/master/docs/index.html"`
-- Now you can just open it with your favourite browser.  
+- Now you can just open it with your favourite browser.
+
 Alternatively, this Application is available [online](https://itsn1x.github.io/8621_infty_die/../README.md) too!
 #### Thank you
 ##### (For letting us serve you.)
