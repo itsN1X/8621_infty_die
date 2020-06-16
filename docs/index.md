@@ -4,7 +4,7 @@
 	<style>
 		html    {    background-image: linear-gradient(to right, rgba(255,0,255,0.3), rgba(0,255,255,0.7));    }
 	</style></head><body>
-<b>P L E A S E -- ⌕<a href="/README.md">R E A D - T H I S</a> -- F O R -- A -- C O P Y.</b><hr>
+<b>P L E A S E -- R E A D ⌕<a href="/README.md"> T H I S</a> -- F O R -- A -- C O P Y.</b><hr>
 
 <input id="n1">
 <input id="n2">
