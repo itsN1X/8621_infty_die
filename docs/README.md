@@ -25,9 +25,9 @@ Alternatively, this Application is available [online](https://itsn1x.github.io/8
 - No analytics on user-behavoiur.
 - No advertisements or shills of any kind.
 
-**Important note:**
-We use javaScript for the back-end calculations.
-If you (too) hate this strain of Technology, there is also exists a [python implementaion](https://github.com/itsN1X/8644_infty_die/releases) written by us, specially for you!
+**Important note:**  
+We use javaScript for the back-end calculations.  
+If you (too) hate this strain of Technology, there is also exists a [python implementaion](https://github.com/itsN1X/8644_infty_die/releases) written by us, specially for you!  
 Kindly look (or clone) into our [python repository](https://github.com/itsN1X/8644_infty_die.git) and get the [g.py](https://raw.githubusercontent.com/itsN1X/8644_infty_die/raw/master/g.py) program.
 ##### *To buy the makers of this software some fresh, Sliced Bread, consider donating via [PayPal.me/itsN1X](https://paypal.me/itsN1X) or ✨[crypto](https://9xo.github.io/R/teb)currencies.*
 ##### ***bitcoin***: `1TsNiXCQkPKaB6zfDQQXAwMBfe12ySoKa`
