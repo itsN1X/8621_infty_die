@@ -1,5 +1,5 @@
 # 8621_infty_die
-A degenerate gamblers' TTD calculator.
+A ~~degenerate~~gamblers' TTD calculator.
 
 ### Last version : `v0.0.1.337`
 
