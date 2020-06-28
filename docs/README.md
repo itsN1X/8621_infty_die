@@ -26,6 +26,7 @@ Alternatively, this Application is available [online](https://itsn1x.github.io/8
 - Furthermore, we do not (nor allow anyone to) track your usage of App or Website.
 - No analytics on user-behavoiur.
 - No advertisements or shills of any kind.
+- No images or hidden beacons.
 
 **Important note:**  
 We use javaScript for the back-end calculations.  
