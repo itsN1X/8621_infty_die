@@ -3,12 +3,16 @@
     <meta name="viewport" content="width=device-width"> 
 	<style>
 		html    {    background-image: linear-gradient(to right, rgba(255,0,255,0.3), rgba(0,255,255,0.7));    }
+		input	{	width:100px;	}
 	</style></head><body>
-	<i>Download this useful tool: <a target="_blank" href="https://github.com/itsN1X/8621_infty_die/releases"><b>Latest Releases</b></a>↗</i><hr>
+	<b>Useful links:</b> Latest <a href="https://github.com/itsN1X/8621_infty_die/releases">releases↗</a> | Download <a href="https://github.com/itsN1X/8621_infty_die/">instructions↗</a>
+	
+	<hr>
 
-<input id="n1">
-<input id="n2">
-<input id="n3">
+<input id="n1" placeholder="iini">
+<input id="n2" placeholder="iinc">
+<input id="n3" placeholder="iite">
+<input id="n0" placeholder="winc">
 <button type="button" onclick="fr()">Re-set</button>
 <button type="button" onclick="fw()">Get W</button>
 <button type="button" onclick="fg()">Get G</button>
@@ -18,12 +22,12 @@
 
 <script>
 
-var profit = (a,b,c) => {
-    return parseFloat((win(a,b,c) - gps(a,b,c)).toFixed(8));
+var profit = (d,a,b,c) => {
+    return parseFloat((((d*win(a,b,c)) - gps(a,b,c))).toFixed(8));
 }
 
 var win = (a,b,c) => {
-    return parseFloat((2*(b**(c-1))*a).toFixed(8));
+    return parseFloat(((b**(c-1))*a).toFixed(8));
 }
 
 var gps = (a,b,c) => {
@@ -49,24 +53,26 @@ function fw() {
 }
 function fp() {
 
+  w = document.getElementById("n0").value;
   x = document.getElementById("n1").value;
   y = document.getElementById("n2").value;
   z = document.getElementById("n3").value;
-  document.getElementById("de").innerHTML += profit(x,y,z) + "<br>";
+  document.getElementById("de").innerHTML += profit(w,x,y,z) + "<br>";
 }
 function f1() {
 
+  w = document.getElementById("n0").value;
   x = document.getElementById("n1").value;
   y = document.getElementById("n2").value;
   z = document.getElementById("n3").value;
-    ft(x,y,z); 
+    ft(w,x,y,z); 
 }
 
-function ft(x,y,z) {
+function ft(w,x,y,z) {
 var i;
     for (i=1;i<=z;i++){
-        q = profit(x,y,i).toFixed(8);
-        qq = ((1-(0.5 ** i))*100).toFixed(8);
+        q = profit(w,x,y,i).toFixed(8);
+        qq = (((1/w) * ( (1-(1/w)**i) / (1-(1/w)) ))*100).toFixed(8);
         qqq = (x*(y**(i-1))).toFixed(8);
         qqqq = (100*q/qqq).toFixed(8);
             document.getElementById("de").innerHTML += i + " : " + qqq + " > " + q + " @ " + qq + "% { " + qqqq + "%<br>";
@@ -75,12 +81,12 @@ var i;
 }
 
 </script>
-<hr><h2>©<i> 1996</i>-<i id="cr"></i>
+<hr><h2>©<i id="cr"></i>
 <script>d = new Date(); document.getElementById('cr').innerHTML = d.getFullYear();</script>
 	<i><a href="https://www.startpage.com/sp/search?q=itsN1X">@itsN1X</a></i>
 </h2>
 ⇨Crypto⇨Donations⇨ <a href="https://9xo.github.io/R/teb">https://9xo.github.io/R/teb</a>!<br>
 <i>{$}<a href="https://paypal.me/itsN1X">PayPal.me/itsN1X</a>{₹} or {₿}<a href="https://jfgi.cc/itsN1X">JfGi.cc/itsN1X</a>{฿}</i><br>
-<b>bitcoin:</b>1TsNiXCQkPKaB6zfDQQXAwMBfe12ySoKa<br>
+<b><i>bitcoin: </i></b>1TsNiXCQkPKaB6zfDQQXAwMBfe12ySoKa<br>
 </body></html>
 </body></html>
